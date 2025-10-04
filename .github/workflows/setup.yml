@@ -16,7 +16,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             # استخراج اسم المشروع من الريبو
-            REPO_NAME="Hospital-Management-System"
+            REPO_NAME="team"
             PROJECT_PATH="/var/www/$REPO_NAME"
 
             # ✅ تحديث النظام
